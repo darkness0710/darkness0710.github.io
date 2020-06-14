@@ -94,7 +94,7 @@ Identify the aspects of your application that vary and separate them from what s
 ```
 Núi thấy rằng việc sendEmail và sendFile có thể thay đổi giữa các dịch vụ, và sẽ tách sendEmail, sendFile ra khỏi class BaseService. Núi sẽ tiến hành thiết kế lại hệ thống:
 
-```
+```php
 <?php
 
 interface EmailInterface
