@@ -7,6 +7,9 @@
 url: "https://darkness0710.github.io"
 baseurl: ""
 
+#
+site_url: https://darkness0710.github.io/darkness0710.github.io  # used for using local images in production
+
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
