@@ -83,7 +83,9 @@ phát sinh thêm các sửa đổi khác thì làm thế nào?
   * Núi thấy dự án giờ giống như một con tàu đắm, núi gặp a Q và quyết định xin nghỉ việc. Ngay lập tức a Q tuyển dung dev mới để khoả lấp khoảng trống, và dev mới khi thấy đống hỗn độn trong đống code của núi để lại và thời gian lại quá ngắn. Công ty the heaven vẫn không tránh khỏi kết cục phá sản, và trên fb của a Q chỉ để lại 1 dòng tin nhắn:
 "Sai lầm lớn nhất a mang trong cuộc đời là tuyển thằng núi ..."
 * Lựa chọn 3:
-  * Núi sử dụng quyền trợ giúp gọi điện thoại người thân, núi ngay lập gọi cho "H đẹp trai" một dân chơi đất cảng. Vừa khóc lóc, vừa kể lể, cuối cùng người bạn của núi trả lời rằng "Ngu thì chết khóc lóc cái ..." à đương nhiên là không phải thế rồi =)) Người bạn đó gửi cho Núi một cuốn sách "Head First Design Pattern" và khuyên núi nên đọc cuốn đó , và núi đã thức 3 ngày 3 đêm không ăn không ngủ để tìm hiểu cuốn sách đó. Trời không phụ lòng người núi đã tìm thấy một giải pháp cho phần thiết kế hệ thống là "Strategy Pattern". Ngay lập tức núi tiến hành refactor lại toàn bộ dự án.
+  * Núi sử dụng quyền trợ giúp gọi điện thoại người thân, núi ngay lập gọi cho "H đẹp trai" một dân chơi đất cảng. Vừa khóc lóc, vừa kể lể, cuối cùng người bạn của núi trả lời rằng "Ngu thì chết khóc lóc cái ..." à đương nhiên là không phải thế rồi =)) 
+   <p><img alt="" src="/img/khoc_loc.png" /></p>
+  * Người bạn đó gửi cho Núi một cuốn sách "Head First Design Pattern" và khuyên núi nên đọc cuốn đó , và núi đã thức 3 ngày 3 đêm không ăn không ngủ để tìm hiểu cuốn sách đó. Trời không phụ lòng người núi đã tìm thấy một giải pháp cho phần thiết kế hệ thống là "Strategy Pattern". Ngay lập tức núi tiến hành refactor lại toàn bộ dự án.
 ## Áp dụng Strategy Pattern
 Triết lý của stategy pattern:
 ```
