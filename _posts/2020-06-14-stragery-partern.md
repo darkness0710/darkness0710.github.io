@@ -181,8 +181,8 @@ $fileUpload->sendFile($file); // [logic send file api google driver]jav.png
 $fileUpload->sendMail(); // [send mail for user]
 ```
 
-Bây giờ lớp dẫn xuất không còn phụ thuộc vào lớp kế thừa, dễ dang mở rộng bảo trì và thêm các phương thức khác mà không sợ bới tung cả dự án lên nữa.
-Dù có thêm bao nhiêu service, hay khách hàng có thay đổi phần gửi email, núi cũng không còn sợ hãi như trước nữa, hệ thống bây giờ đã sẵn sàng đáp ứng những yêu cầu cho sự thay đổi.
+* Bây giờ lớp dẫn xuất không còn phụ thuộc vào lớp kế thừa, dễ dang mở rộng bảo trì và thêm các phương thức khác mà không sợ bới tung cả dự án lên nữa.
+* Dù có thêm bao nhiêu service, hay khách hàng có thay đổi phần gửi email, núi cũng không còn sợ hãi như trước nữa, hệ thống bây giờ đã sẵn sàng đáp ứng những yêu cầu cho sự thay đổi.
 
 ## Bài học rút ra
 - Việc thiết kế hệ thống quá vội vàng, hoặc không có chiều sâu giống như một căn bệnh ung thư vậy. Nó sẽ không đánh sập dự án của bạn ngay lập tức mà từ từ mài mòn hệ thống, tới một thời điểm nào đó dự án phình to ngoài tầm kiểm soát thì ... may mắn thì chúng ta sẽ được làm dự án mới, còn đen thì là công ty mới =))
