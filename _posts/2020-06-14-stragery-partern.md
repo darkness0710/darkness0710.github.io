@@ -63,7 +63,12 @@ $googleDrive->sendMail(); // [logic send mail for user and admin]
 
 * Núi thấy rằng dự án thật là đơn giản, chưa thể sánh được với năng lực của bản thân, dự án này còn dễ hơn bài tập lớn trên trường, từ đó núi không còn chăm chỉ học tập nữa. 
 * Ngày ngày tới công ty đọc báo, sống ảo trên facebook và bán hàng online ...
-Thời gian như chó chạy ngoài đồng, một thời gian sau trong một cuộc họp, giám đốc Q muốn dự án này có một bước đột phá vì có sự cạnh tranh khốc liệt tới từ các công ty IT khác, và yêu cầu Núi trong vòng 1 tuần thêm vào dự án các tính năng:
+  
+  <p><img alt="" src="/img/duong_quyen_son.png" /></p>
+  
+  > "Hình ảnh mang tính chất minh họa"
+  
+* Thời gian như chó chạy ngoài đồng, một thời gian sau trong một cuộc họp, giám đốc Q muốn dự án này có một bước đột phá vì có sự cạnh tranh khốc liệt tới từ các công ty IT khác, và yêu cầu Núi trong vòng 1 tuần thêm vào dự án các tính năng:
   * Một số nền tảng chỉ cần gửi email cho người dùng.
   * Một số nền tảng chỉ cần gửi email cho admin.
   * Một số nền tảng có thể tuỳ chọn gửi mail cho người dùng hoặc admin hoặc cả hai.
