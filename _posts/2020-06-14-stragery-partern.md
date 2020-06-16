@@ -4,8 +4,6 @@
 - Không thông minh như bạn bè cùng trang lứa, nhưng với châm ngôn "cần cù thì bù thông minh", ngày ngày "dậy sớm hơn gà, ngủ muộn hơn chó" cuối cùng sau bao cố gắng núi cũng tốt nghiệp đại học và theo đuổi ước mơ của mình.
 - Núi thử phỏng vấn thực tập ở nhiều công ty nhưng đều thất bại, có lẽ là vì cố gắng học tập quá nhiều nên gương mặt của cậu sinh viên ngày nào giờ trông giống một ông chú 40t nên đi phỏng vấn cho thực tập toàn bị tạch. 
 - Buồn, chán nản, stress trong một  và vì cuộc sống mưu sinh núi chuyển qua chạy grab, và rồi cậu gặp một người. Người đó là một
-- Núi thử phỏng vấn thực tập ở nhiều công ty nhưng đều thất bại, có lẽ là vì cố gắng học tập quá nhiều nên gương mặt của cậu sinh viên ngày nào giờ trông giống một ông chú 40t nên đi phỏng vấn cho thực tập toàn bị tạch. 
-- Buồn, chán nản, stress trong một khoảng thời gian dài và vì cuộc sống mưu sinh núi chuyển qua chạy grab, và rồi cậu gặp một người. Người đó là một
 giám đốc của 1 start up về IT tên là Q. Với nghị lực, ý chí của tuổi trẻ, Núi đã thuyết phục được anh Q và được nhận thực tập vào công ty **the heaven**. Giống như gặp được định mệnh của đời mình, cuộc đời của núi bước sang một trang mới!
 ## Dự án FileDB
 - Mặc dù chỉ là một thực tập sinh, nhưng núi đã chứng minh năng lực cũng như những phẩm chất của 1 cậu sinh viên "tuổi trẻ chưa trải sự đời".
