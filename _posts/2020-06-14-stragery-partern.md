@@ -198,3 +198,5 @@ $fileUpload->sendMail(); // [send mail for user]
 - Núi đã rút ra bài học cho bản thân "Tuổi trẻ đã trải sự đời", núi biết rằng thời gian rảnh mình cần phải học rất nhiều, đọc thật nhiều sách, đừng để thời gian trôi qua vô ích.
 
 > Will Smith: “Đừng theo đuổi ai cả. Hãy là chính mình thôi. Hãy làm công việc của mình và làm chăm chỉ nhé. Người ấy sẽ xuất hiện thôi. Và người ấy sẽ ở lại bên bạn.”
+
+> Source code https://github.com/darkness0710/traning_design_pattern/blob/master/strategy_pattern.md
