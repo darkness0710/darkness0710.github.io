@@ -53,12 +53,6 @@ select * from authors where id in (1, 2, 3, 4, 5, ...)
 ### 2.3 Sự khác nhau giữa with() và load()?
 Mò vào core của laravel chúng ta sẽ thấy như sau:
 ```
-    /**
-     * Begin querying a model with eager loading.
-     *
-     * @param  array|string  $relations
-     * @return \Illuminate\Database\Eloquent\Builder|static
-     */
     public static function with($relations)
     {
         return (new static)->newQuery()->with(
@@ -66,12 +60,6 @@ Mò vào core của laravel chúng ta sẽ thấy như sau:
         );
     }
 
-    /**
-     * Eager load relations on the model.
-     *
-     * @param  array|string  $relations
-     * @return $this
-     */
     public function load($relations)
     {
         $query = $this->newQuery()->with(
