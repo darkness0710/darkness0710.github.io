@@ -44,7 +44,7 @@ Chúng ta nhận ra điểm mạnh của phương thức này là chúng ta thay
 + 1 câu query load ra tất cả bản ghi book
 + 1 câu query load ra mối quan hệ với bảng authors
 ### 2.2 Eager loading với phương thức load()
-`$books = App\Book::all()->load('author');`
+```$books = App\Book::all()->load('author');```
 Chúng ta nhận được câu truy vấn thực thi tương tự như sử dụng with()
 ```
 select * from books
