@@ -1,1 +1,2 @@
-## Một số vấn đề kiểu gì cũng gặp trong Shell Bourne
+## Một số vấn đề thường gặp trong Bournce Shell
+# 1. Sử dụng $* hay $@?
