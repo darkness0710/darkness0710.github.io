@@ -72,3 +72,15 @@ sumNumber () {
 sumNumber
 echo $result
 ```
+
+# 3. cat /dev/null ?
+Vào một ngày đẹp trời, con server linux thấy hết bộ nhớ, bạn ngay lập tức nghĩ tới việc xóa log?
+```
+rm /var/log/messages && touch /var/log/messages
+```
+Quá đơn giản nhưng ... Nếu một process nào đó đang sử dụng stream file log ... Thì có tỉ lệ cao dính lỗi error ...
+
+Giải pháp, trong linux có 1 cách sử lí cồng kềnh nhưng hiệu quả để đưa file về trạng thái zero
+```
+cat /dev/null > /var/log/messages
+```
