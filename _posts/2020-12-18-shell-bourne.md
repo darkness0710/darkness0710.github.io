@@ -53,12 +53,14 @@ echo $result
 ```
 
 Giải pháp2. Sử dụng echo
+```
 #!/bin/bash
 sumNumber () {
     echo $(($1+$2))
 }
 result=$(sumNumber $1 $2)
 echo $result
+```
 
 Giải pháp3. Sử dụng biến global
 ```
