@@ -80,7 +80,7 @@ rm /var/log/messages && touch /var/log/messages
 ```
 Quá đơn giản nhưng ... Nếu một process nào đó đang sử dụng stream file log ... Thì có tỉ lệ cao dính lỗi error ...
 
-Giải pháp, trong linux có 1 cách sử lí cồng kềnh nhưng hiệu quả để đưa file về trạng thái zero
+Giải pháp, trong linux có 1 cách sử lí cồng kềnh nhưng hiệu quả để đưa file về trạng thái zero và không ảnh hưởng cái các luồng stream khác tới file.
 ```
 cat /dev/null > /var/log/messages
 ```
