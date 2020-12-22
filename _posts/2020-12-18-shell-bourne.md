@@ -41,7 +41,7 @@ echo $result
 
 Hmm ... toang. Shell không trả về giá trị như cái cách chúng ta nghĩ ...
 
-Giải pháp 1. Sử dụng toán tử $?
+- Giải pháp 1. Sử dụng toán tử $?
 ```
 #!/bin/bash
 sumNumber () {
@@ -52,7 +52,7 @@ result=$?
 echo $result
 ```
 
-Giải pháp2. Sử dụng echo
+- Giải pháp 2. Sử dụng echo
 ```
 #!/bin/bash
 sumNumber () {
@@ -62,7 +62,7 @@ result=$(sumNumber $1 $2)
 echo $result
 ```
 
-Giải pháp3. Sử dụng biến global
+- Giải pháp 3. Sử dụng biến global
 ```
 #!/bin/bash
 a=$1
