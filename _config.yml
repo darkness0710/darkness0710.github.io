@@ -28,7 +28,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Beautiful Jekyll: "https://darkness0710.github.io/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://github.com/darkness0710/"
   Author's home: "https://github.com/darkness0710/"
