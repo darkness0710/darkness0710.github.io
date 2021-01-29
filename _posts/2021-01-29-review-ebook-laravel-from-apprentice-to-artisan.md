@@ -24,7 +24,5 @@ Tóm gọn lại các ý chính sẽ trình bày trong ebook:
 
 Nếu là một lập trình viên php hay đã từng sử dụng laravel, thì đây là cuốn sách đáng giá để đọc.
 
+> Đừng bao giờ theo đuổi tốc độ code, hãy theo đuổi chất lượng code. Thà thành nghệ nhân không thành thợ code.
 
-```
-Đừng bao giờ theo đuổi tốc độ code, hãy theo đuổi chất lượng code. Thà thành nghệ nhân không thành thợ code.
-```
