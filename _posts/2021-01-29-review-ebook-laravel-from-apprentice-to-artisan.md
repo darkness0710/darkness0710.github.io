@@ -5,7 +5,7 @@ Một ngày đẹp trời, tôi ngồi lướt các trang tin tức về lập t
 tôi đã xem thử nó các ra gì và này nọ không? Thật bất ngờ khi tác giả của cuốn sách đó lại là Taylor Otwell, cha đẻ của laravel. Theo kinh nghiệm đọc sách của mình, tôi lưỡng lực giữa việc
 đọc hay skip qua cuốn sách, bởi vì dev càng nổi tiếng thì viết sách càng tệ ... 
 
-Thật bất ngờ khi ebook chỉ vẻn vẹn có 67 page, tức chỉ mất 1h-2h là đọc xong (devil) Thế ngại gì mà không đọc cơ chứ?
+Thật bất ngờ khi ebook chỉ vẻn vẹn có 67 page, tức chỉ mất 1h-2h là đọc xong (devil). Thế ngại gì mà không đọc cơ chứ?
 Nội dung cuốn sách cũng thật bất ngờ, cách viết sách của Taylor Otwell giống như chính tuyên ngôn của laravel:
 > Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.
 
