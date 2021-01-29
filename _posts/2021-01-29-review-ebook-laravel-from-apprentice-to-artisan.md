@@ -1,7 +1,8 @@
 # Review ebook Laravel: From Apprentice To Artisan
 [Laravel: From Apprentice To Artisan](https://github.com/darkness0710/traning-design-pattern/blob/master/ebook/tuxdoc.com_laravel-4-from-apprentice-to-artisan.pdf)
-
-<img alt="" src="/img/laravel_apprentice.png" />
+<p align="center">
+  <img alt="" src="/img/laravel_apprentice.png" />
+</p>
 
 Một ngày đẹp trời, tôi ngồi lướt các trang tin tức về lập trình và ... tôi thấy quảng cáo sách của google đập vào mặt cuốn sách "Laravel: From Apprentice To Artisan", với tính tò mò
 tôi đã xem thử nó các ra gì và này nọ không? Thật bất ngờ khi tác giả của cuốn sách đó lại là Taylor Otwell, cha đẻ của laravel. Theo kinh nghiệm đọc sách của mình, tôi lưỡng lực giữa việc
