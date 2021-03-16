@@ -10,3 +10,4 @@ Tải các giao diện khác cho sublime text.
 5. Package resource viewer
 View và backup package.
 6. PHP getter and setter
+7. Copy filepatch funny
