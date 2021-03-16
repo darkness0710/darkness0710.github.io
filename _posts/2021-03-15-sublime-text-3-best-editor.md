@@ -16,3 +16,4 @@ View và backup package.
 10. laravel artisan 5
 11. composer php-cs-fixer
 12. sublimelinter + sublimelinter-php
+13. Laravel 5 Snippets for Sublime Text
