@@ -14,3 +14,4 @@ View và backup package.
 8. Sublime merge
 9. sidebarEnhancements
 10. laravel artisan 5
+11. composer php-cs-fixer
