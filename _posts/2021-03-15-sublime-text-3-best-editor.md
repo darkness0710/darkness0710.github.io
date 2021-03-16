@@ -1,5 +1,6 @@
 [Review seri sublime text mastery] (https://laracasts.com/series/sublime-text-mastery)
-Các plugins nên được cài đặt:
+
+[#]Các plugins nên được cài đặt:
 1. A file icon
 2. Material theme
 3. Git
