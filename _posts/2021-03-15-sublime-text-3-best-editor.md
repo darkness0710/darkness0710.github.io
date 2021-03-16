@@ -1,20 +1,16 @@
-Cài đặt các plugins
+[Review seri sublime text mastery] (https://laracasts.com/series/sublime-text-mastery)
+Các plugins nên được cài đặt:
 1. A file icon
-Show các icon bên left bar của sublime text.
 2. Material theme
-Giao diện cho sublime text
 3. Git
-Chỉ đơn giản là git
 4. Colorsublime
-Tải các giao diện khác cho sublime text.
 5. Package resource viewer
-View và backup package.
 6. PHP getter and setter
 7. Copy filepatch funny
 8. Sublime merge
-9. sidebarEnhancements
-10. laravel artisan 5
-11. composer php-cs-fixer
-12. sublimelinter + sublimelinter-php
+9. SidebarEnhancements
+10. Laravel artisan 5
+11. Composer php-cs-fixer
+12. Sublimelinter + sublimelinter-php
 13. Laravel 5 Snippets for Sublime Text
 14. DocBlockr
