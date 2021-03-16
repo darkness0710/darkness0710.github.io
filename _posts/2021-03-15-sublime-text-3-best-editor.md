@@ -15,3 +15,4 @@ View và backup package.
 9. sidebarEnhancements
 10. laravel artisan 5
 11. composer php-cs-fixer
+12. sublimelinter + sublimelinter-php
