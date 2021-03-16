@@ -12,3 +12,4 @@ View và backup package.
 6. PHP getter and setter
 7. Copy filepatch funny
 8. Sublime merge
+9. sidebarEnhancements
