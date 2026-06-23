@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Darkness0710 Blog</title><description>Ghi chú kỹ thuật · Azure · những thứ mình học được</description><link>https://darkness0710.github.io/</link><language>vi</language><item><title>Hành trình 2 tuần chinh phục AZ-900 (905/1000)</title><link>https://darkness0710.github.io/posts/on-thi-az-900-trong-2-tuan/</link><guid isPermaLink="true">https://darkness0710.github.io/posts/on-thi-az-900-trong-2-tuan/</guid><description>Mình đậu AZ-900 (Azure Fundamentals) 905/1000 sau 2 tuần ôn — tài liệu, lộ trình từng ngày, cheat sheet, 465 câu trắc nghiệm và kinh nghiệm phòng thi.</description><pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;img src=&quot;/images/microsoft-certified-fundamentals-badge.svg&quot; alt=&quot;Microsoft Certified: Fundamentals badge&quot; style=&quot;width:150px;margin:0 auto 1.75rem;display:block;&quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;Sau một thời gian làm việc chủ yếu với AWS, mình quyết định lấy chứng chỉ
+&lt;strong&gt;AZ-900 – Microsoft Azure Fundamentals&lt;/strong&gt; để có cái nhìn nền tảng về Azure. Vì đã
+quen với khái niệm cloud từ trước, mình đặt mục tiêu &lt;strong&gt;ôn trong 2 tuần&lt;/strong&gt; (mỗi ngày
+&lt;strong&gt;2–3 tiếng&lt;/strong&gt;) — và kết quả là &lt;strong&gt;đậu với 905/1000&lt;/strong&gt;. Bài này ghi lại lộ trình và
+kinh nghiệm của mình.&lt;/p&gt;
+&lt;p&gt;:::note[AZ-900 là gì?]
+Đây là chứng chỉ &lt;strong&gt;nền tảng (foundational)&lt;/strong&gt; của Microsoft Azure, không yêu cầu kinh
+nghiệm kỹ thuật sâu. Đề kiểm tra hiểu biết về khái niệm cloud, các dịch vụ Azure cốt
+lõi, cũng như quản trị &amp;amp; chi phí. Không có điều kiện tiên quyết — ai cũng thi được.
+:::&lt;/p&gt;
+&lt;h2&gt;Mục tiêu &amp;amp; điểm xuất phát&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nền tảng:&lt;/strong&gt; đã hiểu cloud (IaaS/PaaS/SaaS, region, scaling…) nhờ làm AWS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cái mới phải học:&lt;/strong&gt; tên gọi &amp;amp; dịch vụ riêng của Azure, phần quản trị và chi phí.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thời gian:&lt;/strong&gt; 2 tuần, &lt;strong&gt;2–3 tiếng/ngày&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mục tiêu:&lt;/strong&gt; qua mức &lt;strong&gt;700/1000&lt;/strong&gt; → thực tế đạt &lt;strong&gt;905/1000&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cấu trúc đề thi&lt;/h2&gt;
+&lt;p&gt;Đề AZ-900 xoay quanh 3 nhóm kiến thức:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Nhóm kiến thức&lt;/th&gt;
+&lt;th&gt;Tỷ trọng&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Describe cloud concepts (khái niệm cloud)&lt;/td&gt;
+&lt;td&gt;25–30%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Describe Azure architecture &amp;amp; services (kiến trúc &amp;amp; dịch vụ)&lt;/td&gt;
+&lt;td&gt;35–40%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Describe Azure management &amp;amp; governance (quản trị &amp;amp; chi phí)&lt;/td&gt;
+&lt;td&gt;30–35%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Khoảng &lt;strong&gt;40–60 câu&lt;/strong&gt;, thời gian &lt;strong&gt;45–60 phút&lt;/strong&gt;, đạt &lt;strong&gt;700/1000&lt;/strong&gt; là qua. Hình thức:
+thi &lt;strong&gt;online có giám thị&lt;/strong&gt; (ở nhà) hoặc tại &lt;strong&gt;trung tâm khảo thí&lt;/strong&gt;; lệ phí khoảng
+&lt;strong&gt;$99 USD&lt;/strong&gt; (có thể đổi theo khu vực).&lt;/p&gt;
+&lt;h2&gt;Tài liệu mình dùng&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tài liệu&lt;/th&gt;
+&lt;th&gt;Mục đích&lt;/th&gt;
+&lt;th&gt;Ghi chú&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://learn.microsoft.com/credentials/certifications/azure-fundamentals/&quot;&gt;Microsoft Learn – AZ-900 path&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Học chính, miễn phí, bám sát đề&lt;/td&gt;
+&lt;td&gt;Quan trọng nhất&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://learn.microsoft.com/credentials/certifications/azure-fundamentals/&quot;&gt;Microsoft Practice Assessment&lt;/a&gt; (miễn phí)&lt;/td&gt;
+&lt;td&gt;Làm quen dạng câu hỏi chính chủ&lt;/td&gt;
+&lt;td&gt;Có ngay trên trang chứng chỉ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/Ditectrev/Microsoft-Azure-AZ-900-Microsoft-Azure-Fundamentals-Practice-Tests-Exams-Questions-Answers&quot;&gt;GitHub Ditectrev – AZ-900&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Ngân hàng khoảng 485 câu trắc nghiệm&lt;/td&gt;
+&lt;td&gt;Mình dùng đợt đó để luyện đề&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uhDcDLztBKk&quot;&gt;AZ-900 Mock Exam — 100 Q&amp;amp;A (YouTube)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;100 câu mô phỏng, xem để tự kiểm tra&lt;/td&gt;
+&lt;td&gt;Khoảng 1 tiếng&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;:::tip[Luyện đề ngay trên blog này]
+Hồi đó mình luyện trắc nghiệm trực tiếp từ repo &lt;strong&gt;Ditectrev&lt;/strong&gt; trên GitHub. Giờ bạn
+có thể dùng luôn tab &lt;strong&gt;Ôn thi&lt;/strong&gt; của blog: &lt;a href=&quot;/quiz/az-900/&quot;&gt;Trắc nghiệm AZ-900&lt;/a&gt;
+(465 câu &lt;strong&gt;có giải thích tiếng Việt&lt;/strong&gt;) và &lt;a href=&quot;/cheatsheet/az-900/&quot;&gt;Cheat sheet AZ-900&lt;/a&gt;.
+:::&lt;/p&gt;
+&lt;h2&gt;Lộ trình 2 tuần&lt;/h2&gt;
+&lt;p&gt;Mình chia 14 ngày (mỗi ngày &lt;strong&gt;2–3 tiếng&lt;/strong&gt;) thành 2 giai đoạn:
+&lt;strong&gt;5 ngày học&lt;/strong&gt; (Microsoft Learn → cheat sheet → Practice Assessment → video mock exam),
+rồi &lt;strong&gt;9 ngày cày 465 câu&lt;/strong&gt; trắc nghiệm.&lt;/p&gt;
+&lt;h3&gt;Giai đoạn 1 — Học nền tảng (Ngày 1–5)&lt;/h3&gt;
+&lt;p&gt;Thứ tự: học hết &lt;strong&gt;&lt;a href=&quot;https://learn.microsoft.com/credentials/certifications/azure-fundamentals/&quot;&gt;Microsoft Learn – AZ-900 path&lt;/a&gt;&lt;/strong&gt; (khoảng 5 tiếng, gọn trong 2 ngày) → &lt;strong&gt;đọc &lt;a href=&quot;/cheatsheet/az-900/&quot;&gt;cheat sheet&lt;/a&gt;&lt;/strong&gt; để hệ thống lại → làm &lt;strong&gt;Microsoft Practice Assessment&lt;/strong&gt; → xem một &lt;strong&gt;video mock exam 100 câu&lt;/strong&gt; để tự kiểm tra. Số trong ngoặc là mục cheat sheet.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Nội dung&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Microsoft Learn&lt;/strong&gt;: Cloud concepts + bắt đầu Azure architecture &amp;amp; services (khoảng 2,5 tiếng)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Microsoft Learn&lt;/strong&gt;: phần còn lại + Azure management &amp;amp; governance → hoàn tất path (khoảng 2,5 tiếng)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Đọc cheat sheet&lt;/strong&gt; toàn bộ (mục 1–16, khái niệm cloud → SLA)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Microsoft Practice Assessment&lt;/strong&gt; (đề chính chủ) → xem lại phần sai, đọc lại cheat sheet chỗ yếu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Xem video &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uhDcDLztBKk&quot;&gt;AZ-900 Mock Exam — 100 Q&amp;amp;A&lt;/a&gt;&lt;/strong&gt; (khoảng 1 tiếng) để tự kiểm tra trước khi sang giai đoạn cày đề&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Giai đoạn 2 — Cày 465 câu trắc nghiệm (Ngày 6–14)&lt;/h3&gt;
+&lt;p&gt;Làm &lt;a href=&quot;/quiz/az-900/&quot;&gt;trắc nghiệm AZ-900&lt;/a&gt; (465 câu, &lt;strong&gt;có giải thích&lt;/strong&gt;), khoảng &lt;strong&gt;60 câu/ngày&lt;/strong&gt;, đọc kỹ giải thích những câu làm sai.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ngày&lt;/th&gt;
+&lt;th&gt;Trắc nghiệm&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Câu 1–60&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Câu 61–120&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Câu 121–180&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Câu 181–240&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;Câu 241–300&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Câu 301–360&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Câu 361–420&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Câu 421–465 + làm lại các câu từng sai&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Ôn nhanh cheat sheet + làm lại câu sai → &lt;strong&gt;đi thi&lt;/strong&gt; 🎯&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Một vài lưu ý rút ra&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Phân biệt tên dịch vụ:&lt;/strong&gt; đề hay đánh lừa giữa các dịch vụ gần giống nhau
+(VD: Azure Policy vs Resource Lock; Availability Zone vs Region Pair).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Học theo &quot;khi nào dùng cái gì&quot;&lt;/strong&gt; thay vì học thuộc định nghĩa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nắm chắc Entra ID &amp;amp; RBAC&lt;/strong&gt; — phần identity xuất hiện khá nhiều.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Đừng bỏ phần pricing/governance&lt;/strong&gt; dù nó hơi khô; chiếm tới khoảng 1/3 đề.&lt;/li&gt;
+&lt;li&gt;Câu hỏi dạng &lt;strong&gt;&quot;đúng/sai từng ý&quot;&lt;/strong&gt; không cho quay lại — đọc kỹ trước khi chọn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::important[Lưu ý phòng thi]
+Khi &lt;strong&gt;bắt đầu&lt;/strong&gt; bài thi AZ-900, bạn sẽ phải làm một bài &lt;strong&gt;khảo sát (survey) trước&lt;/strong&gt;
+khi vào đề — khác với AWS (survey nằm &lt;strong&gt;sau&lt;/strong&gt; khi thi xong). Đừng bối rối, cứ làm
+nhanh rồi vào phần câu hỏi chính.
+:::&lt;/p&gt;
+&lt;h2&gt;Kết quả &amp;amp; cảm nghĩ&lt;/h2&gt;
+&lt;p&gt;Mình &lt;strong&gt;đậu với 905/1000&lt;/strong&gt; 🎉&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&quot;/certs/img/az-900-azure-fundamentals.jpg&quot; alt=&quot;Chứng chỉ Microsoft Certified: Azure Fundamentals&quot; loading=&quot;lazy&quot; style=&quot;max-width:560px;width:100%;margin:1.5rem auto;display:block;border-radius:.5rem;box-shadow:0 2px 12px rgba(0,0,0,.2);&quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;AZ-900 không khó, nhất là khi bạn đã quen cloud. Giá trị lớn nhất với mình là &lt;strong&gt;hệ
+thống lại từ vựng và tư duy theo &quot;kiểu Azure&quot;&lt;/strong&gt;, làm bàn đạp để học tiếp &lt;strong&gt;AZ-204&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bạn đang ôn AZ-900? Cứ thoải mái hỏi mình qua trang &lt;a href=&quot;/about/&quot;&gt;Giới thiệu&lt;/a&gt; nhé.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content:encoded></item><item><title>Hãy để những dòng code trưởng thành cùng bạn</title><link>https://darkness0710.github.io/posts/hay-de-nhung-dong-code-truong-thanh-cung-ban/</link><guid isPermaLink="true">https://darkness0710.github.io/posts/hay-de-nhung-dong-code-truong-thanh-cung-ban/</guid><description>Vài góc nhìn &amp; thói quen giúp mình trưởng thành hơn trong nghề code: tư duy KISS/YAGNI, học cả ngoài việc code, review code và đừng so sánh bản thân với người khác.</description><pubDate>Sun, 24 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Bạn có bao giờ mở lại đoạn code mình viết một, hai năm trước rồi thầm nghĩ &lt;em&gt;&quot;trời,
+sao hồi đó mình viết kỳ vậy&quot;&lt;/em&gt; không? Nếu có thì xin chúc mừng — đó là dấu hiệu bạn
+đã trưởng thành. Và code của bạn cũng nên như thế: lớn lên cùng tư duy và kinh
+nghiệm của bạn. Dưới đây là vài góc nhìn &amp;amp; thói quen giúp mình (và hi vọng cả bạn)
+tiến bộ hơn mỗi ngày.&lt;/p&gt;
+&lt;h2&gt;1. Thay đổi góc nhìn của bản thân (Thinking out of the box)&lt;/h2&gt;
+&lt;p&gt;Mỗi người chúng ta khi gặp một vấn đề đều có một &lt;strong&gt;góc nhìn (view)&lt;/strong&gt; khác nhau. Nếu
+góc nhìn ấy bị gò bó bởi lối tư duy dập khuôn, quá bài bản theo sách vở, đôi khi nó
+sẽ khiến vấn đề trở &lt;strong&gt;nên&lt;/strong&gt; rắc rối hơn mức cần thiết.&lt;/p&gt;
+&lt;p&gt;Ví dụ, xét bài toán quen thuộc:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tính tổng các số nguyên từ 1 đến n.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hồi còn trên giảng đường, chúng ta thường được hướng dẫn giải theo 2 cách cơ bản:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Cách 1: dùng vòng lặp for
+$sum = 0;
+for ($i = 1; $i &amp;lt;= $n; $i++) {
+    $sum += $i;
+}
+
+// Cách 2: dùng đệ quy
+function sum($n) {
+    if ($n === 1) {
+        return 1;
+    }
+    return $n + sum($n - 1);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Phần lớn chúng ta, khi đã tìm được một lời giải, thường dừng lại ở đó mà không tìm
+cách khác. Lâu dần, &lt;strong&gt;góc nhìn&lt;/strong&gt; hẹp lại và ta càng khó nhận ra giải pháp đơn giản.
+Thực ra, dùng đệ quy cho bài toán này là đang phức tạp hóa một cách không cần thiết:&lt;/p&gt;
+&lt;p&gt;:::tip[YAGNI — You Aren&apos;t Gonna Need It]
+Đừng làm sẵn thứ bạn &lt;em&gt;chưa&lt;/em&gt; thực sự cần. Thêm code = thêm phức tạp.
+:::&lt;/p&gt;
+&lt;p&gt;:::tip[KISS — Keep It Simple, Stupid]
+Nghĩ vấn đề đơn giản thì nó sẽ đơn giản; nghĩ nó phức tạp thì nó sẽ cực kỳ phức tạp. Hãy tìm lời giải gọn nhất trước đã.
+:::&lt;/p&gt;
+&lt;p&gt;Nếu xem đây chỉ là bài toán áp dụng
+&lt;a href=&quot;https://vi.wikipedia.org/wiki/C%E1%BA%A5p_s%E1%BB%91_c%E1%BB%99ng&quot;&gt;công thức cấp số cộng&lt;/a&gt;,
+lời giải gọn hơn hẳn:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Áp dụng công thức cấp số cộng
+$sum = $n * ($n + 1) / 2;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;2. Giỏi hơn bằng cách… không code&lt;/h2&gt;
+&lt;p&gt;Ngoài tư duy lúc giải quyết vấn đề, cách bạn dùng thời gian &lt;em&gt;ngoài&lt;/em&gt; lúc code cũng
+quyết định bạn đi được bao xa. Chúng ta sẽ không giỏi hơn nếu chỉ cắm mặt vào màn
+hình. Hãy phát triển đều các kỹ năng khác — từ tìm kiếm thông tin (tra từ khóa) đến
+các kỹ năng mềm — và học cách quan sát mọi thứ xung quanh.&lt;/p&gt;
+&lt;p&gt;Chẳng hạn, một kỹ năng tìm kiếm tốt có thể giúp bạn ra lời giải trong 5 phút thay vì
+mò mẫm cả buổi; còn khả năng diễn đạt rõ ràng sẽ khiến mỗi buổi review hay họp nhóm
+nhẹ nhàng hơn nhiều. Code rất quan trọng, nhưng nó chỉ là &lt;strong&gt;một mắt xích&lt;/strong&gt; trong cả
+quy trình làm phần mềm.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Một lập trình viên giỏi là người luôn nhìn cả hai phía trước khi băng qua một con
+đường một chiều.&quot; — Doug Linder&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;3. Review code — nguồn kinh nghiệm vô giá&lt;/h2&gt;
+&lt;p&gt;Nhiều người xem việc đi review code của người khác là một công việc nhàm chán. Đó là
+một suy nghĩ sai lầm.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Muốn code giỏi, hãy đọc code của người khác.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Qua mỗi lần review, ta học được kinh nghiệm cùng những góc nhìn hay (lẫn dở) của
+người xung quanh. Chẳng hạn, khi đọc một pull request bạn có thể nhặt được một cách
+đặt tên biến gọn hơn, một pattern xử lý lỗi hay, hoặc nhận ra đúng cái bẫy mà chính
+mình cũng hay mắc. Việc này đôi khi hơi nhàm, nhưng kiến thức thu được thì vô cùng
+quý giá — và còn thể hiện tinh thần teamwork, góp ý để cùng nhau tiến bộ.&lt;/p&gt;
+&lt;h2&gt;4. Đừng so sánh mình với người khác&lt;/h2&gt;
+&lt;p&gt;Mỗi người có một năng lực lập trình khác nhau, và ai cũng đặc biệt theo cách riêng.
+Có người thiên bẩm, có người chăm chỉ cần mẫn. Thấy đồng nghiệp giải bài nhanh hơn
+rất dễ khiến bạn nản — nhưng biết đâu bạn lại mạnh ở khả năng viết code dễ bảo trì,
+hay giải thích vấn đề cho người khác, những thứ không phải ai cũng làm tốt.&lt;/p&gt;
+&lt;p&gt;Không ai là chưa từng mắc sai lầm, vậy nên cứ cố gắng, cứ đam mê, miễn là khi code
+bạn thấy vui.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Bất kỳ ai cũng có thể viết code để máy tính hiểu được. Nhưng một lập trình viên
+giỏi viết code để con người hiểu được.&quot; — Martin Fowler&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Tóm lại&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🔭 &lt;strong&gt;Mở rộng góc nhìn&lt;/strong&gt; — nghĩ đơn giản trước (nhớ KISS &amp;amp; YAGNI).&lt;/li&gt;
+&lt;li&gt;🌱 &lt;strong&gt;Phát triển đều kỹ năng&lt;/strong&gt; ngoài việc code.&lt;/li&gt;
+&lt;li&gt;👀 &lt;strong&gt;Chăm review code&lt;/strong&gt; — học từ người khác.&lt;/li&gt;
+&lt;li&gt;🙂 &lt;strong&gt;Đừng so sánh&lt;/strong&gt; — cứ tiến bộ theo nhịp của riêng mình.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mỗi người rồi sẽ tìm được con đường phù hợp với mình. Nếu bạn có góc nhìn hay thói
+quen nào hay ho, mình rất muốn nghe — cứ nhắn mình qua trang &lt;a href=&quot;/about/&quot;&gt;Giới thiệu&lt;/a&gt; nhé.&lt;/p&gt;
+</content:encoded></item></channel></rss>

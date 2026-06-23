@@ -1,0 +1,1 @@
+import"./config.oZc9M7Sd.js";import"./translation.DCmoqwYJ.js";function o(...n){return n.join("/").replace(/\/+/g,"/")}function u(n){return r(`/posts/${n}/`)}function r(n){return o("","/",n)}export{u as g,r as u};
